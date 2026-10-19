@@ -1,0 +1,52 @@
+<section class="roster" aria-labelledby="roster-title">
+  <div class="roster-heading">
+    <div>
+      <p class="eyebrow">THE LINEUP</p>
+      <h2 id="roster-title">All superheroes</h2>
+    </div>
+    <span class="count">{{ superheroes.length }} heroes</span>
+  </div>
+
+  @if (loading) {
+    <p class="status" role="status">Loading the roster…</p>
+  } @else if (error) {
+    <p class="status error" role="alert">{{ error }}</p>
+  } @else {
+    <div class="table-scroll">
+      <table>
+        <caption class="visually-hidden">
+          Superhero roster and intelligence, strength, speed, durability, power, and combat stats.
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Hero</th>
+            <th scope="col">Intelligence</th>
+            <th scope="col">Strength</th>
+            <th scope="col">Speed</th>
+            <th scope="col">Durability</th>
+            <th scope="col">Power</th>
+            <th scope="col">Combat</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (hero of superheroes; track hero.id) {
+            <tr>
+              <th scope="row">
+                <div class="hero">
+                  <span class="avatar" aria-hidden="true">{{ hero.name.charAt(0) }}</span>
+                  <span>{{ hero.name }}</span>
+                </div>
+              </th>
+              <td>{{ hero.powerstats.intelligence }}</td>
+              <td>{{ hero.powerstats.strength }}</td>
+              <td>{{ hero.powerstats.speed }}</td>
+              <td>{{ hero.powerstats.durability }}</td>
+              <td>{{ hero.powerstats.power }}</td>
+              <td>{{ hero.powerstats.combat }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  }
+</section>

@@ -1,0 +1,120 @@
+.roster {
+  overflow: hidden;
+  border: 1px solid #e4e9f2;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 18px 48px rgb(30 50 90 / 7%);
+}
+
+.roster-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 26px 28px 22px;
+}
+
+.eyebrow {
+  margin: 0 0 7px;
+  color: #78849c;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 21px;
+  letter-spacing: -0.02em;
+}
+
+.count {
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: #eef0ff;
+  color: #505fd1;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.status {
+  margin: 0;
+  padding: 26px 28px;
+  color: #64708a;
+}
+
+.error {
+  color: #a33232;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px 18px;
+  border-top: 1px solid #edf0f5;
+  text-align: left;
+  white-space: nowrap;
+}
+
+thead th {
+  border-top: 0;
+  background: #f8f9fc;
+  color: #78849c;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+tbody th {
+  font-size: 13px;
+  font-weight: 650;
+}
+
+tbody td {
+  color: #48546d;
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+}
+
+tbody tr:hover {
+  background: #fbfcff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.avatar {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border-radius: 11px;
+  background: #edf0ff;
+  color: #505fd1;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}

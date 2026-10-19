@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "A-Bomb",
+    "image": "1-a-bomb.jpg",
+    "powerstats": {
+      "intelligence": 38,
+      "strength": 100,
+      "speed": 17,
+      "durability": 80,
+      "power": 24,
+      "combat": 64
+    }
+  },
+  {
+    "id": 2,
+    "name": "Batman",
+    "image": "70-batman.jpg",
+    "powerstats": {
+      "intelligence": 100,
+      "strength": 26,
+      "speed": 27,
+      "durability": 50,
+      "power": 47,
+      "combat": 100
+    }
+  },
+  {
+    "id": 3,
+    "name": "Flash",
+    "image": "263-flash.jpg",
+    "powerstats": {
+      "intelligence": 63,
+      "strength": 10,
+      "speed": 100,
+      "durability": 50,
+      "power": 68,
+      "combat": 32
+    }
+  },
+  {
+    "id": 4,
+    "name": "Iron Man",
+    "image": "346-iron-man.jpg",
+    "powerstats": {
+      "intelligence": 100,
+      "strength": 85,
+      "speed": 58,
+      "durability": 85,
+      "power": 100,
+      "combat": 64
+    }
+  },
+  {
+    "id": 5,
+    "name": "Superman",
+    "image": "644-superman.jpg",
+    "powerstats": {
+      "intelligence": 94,
+      "strength": 100,
+      "speed": 100,
+      "durability": 100,
+      "power": 100,
+      "combat": 85
+    }
+  }
+]
