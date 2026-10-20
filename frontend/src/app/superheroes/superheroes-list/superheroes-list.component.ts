@@ -1,5 +1,5 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { SuperheroesService, Superhero } from './superheroes.service';
+import { SuperheroesService, Superhero } from '../superheroes.service';
 
 @Component({
   selector: 'app-superheroes-list',

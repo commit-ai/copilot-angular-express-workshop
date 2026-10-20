@@ -4,18 +4,18 @@
 }
 
 .page-shell {
-  width: min(1180px, calc(100% - 40px));
+  width: min(1280px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 72px 0;
+  padding: 48px 0;
 }
 
 .page-header {
-  margin-bottom: 34px;
+  margin-bottom: 22px;
 }
 
 .eyebrow {
   margin: 0 0 14px;
-  color: #5d6de2;
+  color: #c5a96c;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.14em;
@@ -23,15 +23,15 @@
 
 h1 {
   margin: 0;
-  font-size: clamp(36px, 6vw, 56px);
+  font-size: clamp(28px, 5vw, 40px);
   line-height: 1.05;
   letter-spacing: -0.045em;
 }
 
 .intro {
-  margin: 14px 0 0;
-  color: #64708a;
-  font-size: 17px;
+  margin: 10px 0 0;
+  color: #b6b8bd;
+  font-size: 14px;
 }
 
 @media (max-width: 600px) {

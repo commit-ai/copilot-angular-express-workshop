@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "scripts": {
-    "start": "ng serve --port 3001 --proxy-config proxy.conf.json",
+    "start": "ng serve --port 41072 --proxy-config proxy.conf.json",
     "build": "ng build"
   },
   "dependencies": {
