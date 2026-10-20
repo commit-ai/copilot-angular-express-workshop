@@ -1,0 +1,112 @@
+.roster {
+  overflow: hidden;
+  border: 1px solid #44474c;
+  border-radius: 6px;
+  background: #22252a;
+}
+
+.roster-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 18px;
+}
+
+.eyebrow {
+  display: none;
+}
+
+h2 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.count {
+  color: #b7bac0;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.status {
+  margin: 0;
+  padding: 20px 18px;
+  color: #c5c7cc;
+}
+
+.error {
+  color: #ff9a9a;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  border-top: 1px solid #44474c;
+}
+
+table {
+  width: 100%;
+  min-width: 920px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  border-right: 1px solid #41444a;
+  border-bottom: 1px solid #41444a;
+  text-align: left;
+  white-space: nowrap;
+}
+
+thead th {
+  background: #292c31;
+  color: #e0e1e4;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+tbody th {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+tbody td {
+  color: #d0d2d6;
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+}
+
+tbody tr:hover {
+  background: #2d3036;
+}
+
+.portrait {
+  display: block;
+  width: 40px;
+  height: 48px;
+  border-radius: 3px;
+  object-fit: cover;
+  background: #34373d;
+}
+
+th:first-child,
+td:first-child,
+thead th:nth-child(n + 4),
+tbody td:nth-child(n + 4) {
+  text-align: center;
+}
+
+th:last-child,
+td:last-child {
+  border-right: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}

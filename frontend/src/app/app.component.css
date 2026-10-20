@@ -1,0 +1,42 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.page-shell {
+  width: min(1280px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.page-header {
+  margin-bottom: 22px;
+}
+
+.eyebrow {
+  margin: 0 0 14px;
+  color: #c5a96c;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+
+.intro {
+  margin: 10px 0 0;
+  color: #b6b8bd;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .page-shell {
+    width: min(100% - 28px, 1180px);
+    padding: 44px 0;
+  }
+}
