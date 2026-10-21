@@ -9,5 +9,10 @@
     "test": "npm run test:backend",
     "test:backend": "npm run test --workspace backend",
     "build": "npm run build --workspace frontend"
+  },
+  "overrides": {
+    "vite": "7.3.7",
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "webpack-dev-server": "6.0.0"
   }
 }
