@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { after, before, test } from 'node:test';
-import app from '../src/app.js';
+import app from '../src/server.js';
 
 let server: ReturnType<typeof app.listen>;
 let baseUrl: string;

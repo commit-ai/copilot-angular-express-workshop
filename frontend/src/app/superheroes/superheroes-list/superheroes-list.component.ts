@@ -21,7 +21,7 @@ export class SuperheroesListComponent implements OnInit {
         this.loading = false;
       },
       error: () => {
-        this.error = 'Could not load the superhero roster. Check that the backend is running.';
+        this.error = 'Could not load the superheroes. Check that the backend is running.';
         this.loading = false;
       }
     });

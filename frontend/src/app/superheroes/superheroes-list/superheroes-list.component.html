@@ -8,14 +8,14 @@
   </div>
 
   @if (loading) {
-    <p class="status" role="status">Loading the roster…</p>
+    <p class="status" role="status">Loading superheroes…</p>
   } @else if (error) {
     <p class="status error" role="alert">{{ error }}</p>
   } @else {
     <div class="table-scroll">
       <table>
         <caption class="visually-hidden">
-          Superhero roster and intelligence, strength, speed, durability, power, and combat stats.
+          Superheroes by intelligence, strength, speed, durability, power, and combat stats.
         </caption>
         <thead>
           <tr>
